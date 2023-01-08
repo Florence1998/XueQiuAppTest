@@ -14,7 +14,7 @@ class MainPage(XueQiuApp):
         """点击搜索框，进入搜索页面"""
         # 制造一个弹框，点击【笔】
         self.find_and_click(*self._BTN_PENCIL)
-        sleep(1)
+        sleep(0.5)
         # click search box搜索框
         self.find_and_click(*self._SEARCH_BOX)
         return SearchPage(self.driver)

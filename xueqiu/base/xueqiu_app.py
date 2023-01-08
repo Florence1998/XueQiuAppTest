@@ -16,7 +16,7 @@ class XueQiuApp(BasePage):
             caps["appActivity"] = ".view.WelcomeActivityAlias"
             caps["noReset"] = "true"  # 保留登录信息（缓存），不写的话执行时会清缓存，清掉登录信息
             self.driver = webdriver.Remote("http://localhost:4723/wd/hub", caps)
-            self.driver.implicitly_wait(15)
+            self.driver.implicitly_wait(25)
         else:
             # 直接启动
             print("复用driver")

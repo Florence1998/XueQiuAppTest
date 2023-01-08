@@ -1,4 +1,6 @@
 # 基本的方法：driver，find，click...
+import time
+
 from appium.webdriver.common.appiumby import AppiumBy
 from appium.webdriver.webdriver import WebDriver
 
@@ -41,3 +43,9 @@ class BasePage(object):
     def screenshot(self, name):
         # 截图
         self.driver.save_screenshot(name)
+
+    def get_time(self):
+        t = time.localtime(time.time())
+        cur_time = time.strftime("%Y-%m-%d_%H-%M-%S", t)
+        print(f"当前时间为：{cur_time}")
+        return cur_time

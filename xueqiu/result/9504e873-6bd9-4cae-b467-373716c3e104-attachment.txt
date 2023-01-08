@@ -1,0 +1,10 @@
+INFO     root:black_handle.py:17 开始查找元素：com.xueqiu.android:id/post_status
+INFO     root:black_handle.py:17 开始查找元素：com.xueqiu.android:id/tv_search
+WARNING  root:black_handle.py:20 未找到元素，处理异常
+INFO     root:black_handle.py:25 当前保存图片的路径>>>C:\Users\15195\Desktop\XueQiuAppTest\xueqiu\base
+INFO     root:black_handle.py:31 处理黑名单：('id', 'com.xueqiu.android:id/iv_close')
+INFO     root:black_handle.py:35 点击黑名单弹框
+INFO     root:black_handle.py:17 开始查找元素：com.xueqiu.android:id/search_input_text
+INFO     root:black_handle.py:17 开始查找元素：//*[@text='01810']
+INFO     root:black_handle.py:17 开始查找元素：//*[@text='股票']
+INFO     root:black_handle.py:17 开始查找元素：//*[@text='01810']/../../..//*[@resource-id='com.xueqiu.android:id/current_price']
